@@ -1,6 +1,7 @@
 # Self Link Highlighter
 
-Bolds links that point to the note you are currently viewing, similar to  the way MediaWiki renders self-links.
+An Obsidian plugin that bolds links pointing to the note you are currently
+viewing, similar to how MediaWiki renders self-links.
 
 ## Why
 
