@@ -7,8 +7,8 @@ export default class SelfLinkBoldPlugin extends Plugin {
         // The note the user is actually looking at. Inside an embed this
         // differs from ctx.sourcePath, which points at the embedded note.
 
-		// Potential Bug: This approach assumes a single pane, but can pick 
-		// the wrong note when two panes are open side by side.
+		// Read once at render time, so the result is frozen into the DOM. If another
+		// pane has focus at that moment, the reference note may be wrong.
         const basePath =
           this.app.workspace.getActiveFile()?.path ?? ctx.sourcePath;
 
