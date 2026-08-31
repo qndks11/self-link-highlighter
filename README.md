@@ -31,6 +31,8 @@ Add a CSS snippet targeting `.is-self-link` to change the appearance:
 
 ## Limitations
 
+Reading view only. Live Preview is not supported yet.
+
 Self-links are resolved once, when the content is rendered. If another pane
 is focused at that moment, the wrong note may be used as the reference.
 Reopening the note fixes it.
