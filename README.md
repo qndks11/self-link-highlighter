@@ -10,6 +10,8 @@ links back to the note you are reading. Obsidian renders these as ordinary
 links, so there is no visual cue that you are already there. This plugin
 renders them as plain bold text instead.
 
+![Demo](assets/example.png)
+
 ## Behaviour
 
 | Situation | Result |
