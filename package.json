@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "Self Link Highlighter",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Highlights links to the current note.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {

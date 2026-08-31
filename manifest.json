@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "self-link-highlighter",
+	"name": "Self Link Highlighter",
 	"version": "1.0.0",
-	"minAppVersion": "1.0.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"minAppVersion": "1.13.7",
+	"description": "Highlights links to the current note.",
+	"author": "Hyeongjun Kim",
+	"authorUrl": "https://www.linkedin.com/in/hyeongjun-kim-6bb418323/",
 	"isDesktopOnly": false
 }
